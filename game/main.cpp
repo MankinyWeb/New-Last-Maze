@@ -36,7 +36,7 @@ void Turn(string mapPath){
 		map1 = boom.Boomed(i, 'b', map1);
 	}
 	clear();
-	cout << "Win, Get coin:" << coin;
+	cout << "Win, Get coin:\n" << coin;
 	lcf.coinCount += coin;
 	lcf.Set();
 }
